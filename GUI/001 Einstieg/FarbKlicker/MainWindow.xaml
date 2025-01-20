@@ -1,0 +1,18 @@
+﻿<Window x:Class="FarbKlicker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FarbKlicker"
+        mc:Ignorable="d"
+        Title="Klick Klick Klick" Height="195" Width="400" WindowStartupLocation="CenterScreen" Background="LightGray">
+    <Grid>
+        <Button x:Name="blauButton" Content="Mach Blau" Height="30" Width="80" Background="Blue" Foreground="Beige" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Click="blauButton_Click"/>
+        <Button x:Name="rotButton" Content="Mach Rot" Height="30" Width="80" Background="Red" Foreground="Beige" HorizontalAlignment="Left" Margin="10,45,0,0" VerticalAlignment="Top" Click="rotButton_Click"/>
+        <Button x:Name="gruenButton" Content="Mach Grün" Height="30" Width="80" Background="Green" Foreground="Beige" HorizontalAlignment="Left" Margin="10,80,0,0" VerticalAlignment="Top" Click="gruenButton_Click"/>
+        <Button x:Name="gelbButton" Content="Mach Gelb" Height="30" Width="80" Background="Yellow" Foreground="Brown" HorizontalAlignment="Left" Margin="10,115,0,0" VerticalAlignment="Top" Click="gelbButton_Click"/>
+        <TextBox x:Name="grussTextBox" HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="95,10,0,0" TextWrapping="Wrap" Text="Dein Gruß hier." VerticalAlignment="Top" Width="274" Height="30"/>
+        <Button x:Name="grussButton" Content="Grüßen" Height="30" Width="274" Background="DarkGray" Foreground="Beige" HorizontalAlignment="Left" Margin="95,45,0,0" VerticalAlignment="Top" Click="grussButton_Click"/>
+
+    </Grid>
+</Window>
