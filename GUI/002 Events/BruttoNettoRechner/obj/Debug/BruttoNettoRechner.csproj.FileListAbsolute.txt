@@ -1,0 +1,15 @@
+F:\Onedrive\Schule\Informatik\Klasse 12\Präsentationen\Softwareentwicklung\015 - Übung GUI\Programm\BruttoNettoRechner\bin\Debug\BruttoNettoRechner.exe.config
+F:\Onedrive\Schule\Informatik\Klasse 12\Präsentationen\Softwareentwicklung\015 - Übung GUI\Programm\BruttoNettoRechner\bin\Debug\BruttoNettoRechner.exe
+F:\Onedrive\Schule\Informatik\Klasse 12\Präsentationen\Softwareentwicklung\015 - Übung GUI\Programm\BruttoNettoRechner\bin\Debug\BruttoNettoRechner.pdb
+F:\Onedrive\Schule\Informatik\Klasse 12\Präsentationen\Softwareentwicklung\015 - Übung GUI\Programm\BruttoNettoRechner\obj\Debug\BruttoNettoRechner.csproj.AssemblyReference.cache
+F:\Onedrive\Schule\Informatik\Klasse 12\Präsentationen\Softwareentwicklung\015 - Übung GUI\Programm\BruttoNettoRechner\obj\Debug\MainWindow.g.cs
+F:\Onedrive\Schule\Informatik\Klasse 12\Präsentationen\Softwareentwicklung\015 - Übung GUI\Programm\BruttoNettoRechner\obj\Debug\App.g.cs
+F:\Onedrive\Schule\Informatik\Klasse 12\Präsentationen\Softwareentwicklung\015 - Übung GUI\Programm\BruttoNettoRechner\obj\Debug\BruttoNettoRechner_MarkupCompile.cache
+F:\Onedrive\Schule\Informatik\Klasse 12\Präsentationen\Softwareentwicklung\015 - Übung GUI\Programm\BruttoNettoRechner\obj\Debug\BruttoNettoRechner_MarkupCompile.lref
+F:\Onedrive\Schule\Informatik\Klasse 12\Präsentationen\Softwareentwicklung\015 - Übung GUI\Programm\BruttoNettoRechner\obj\Debug\MainWindow.baml
+F:\Onedrive\Schule\Informatik\Klasse 12\Präsentationen\Softwareentwicklung\015 - Übung GUI\Programm\BruttoNettoRechner\obj\Debug\BruttoNettoRechner.g.resources
+F:\Onedrive\Schule\Informatik\Klasse 12\Präsentationen\Softwareentwicklung\015 - Übung GUI\Programm\BruttoNettoRechner\obj\Debug\BruttoNettoRechner.Properties.Resources.resources
+F:\Onedrive\Schule\Informatik\Klasse 12\Präsentationen\Softwareentwicklung\015 - Übung GUI\Programm\BruttoNettoRechner\obj\Debug\BruttoNettoRechner.csproj.GenerateResource.cache
+F:\Onedrive\Schule\Informatik\Klasse 12\Präsentationen\Softwareentwicklung\015 - Übung GUI\Programm\BruttoNettoRechner\obj\Debug\BruttoNettoRechner.csproj.CoreCompileInputs.cache
+F:\Onedrive\Schule\Informatik\Klasse 12\Präsentationen\Softwareentwicklung\015 - Übung GUI\Programm\BruttoNettoRechner\obj\Debug\BruttoNettoRechner.exe
+F:\Onedrive\Schule\Informatik\Klasse 12\Präsentationen\Softwareentwicklung\015 - Übung GUI\Programm\BruttoNettoRechner\obj\Debug\BruttoNettoRechner.pdb

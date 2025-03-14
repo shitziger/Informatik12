@@ -1,0 +1,49 @@
+﻿<Window x:Class="BruttoNettoRechner.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BruttoNettoRechner"
+        mc:Ignorable="d"
+        Title="Brutto-Netto-Rechner" Height="415" Width="370" WindowStartupLocation="CenterScreen" FontSize="16" FontWeight="DemiBold">
+    <Grid>
+        <Label Content="Bruttojahreseinkommen:" HorizontalAlignment="Left" Margin="10,20,0,0" VerticalAlignment="Top" Height="30" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="tbBrutto"  HorizontalAlignment="Right" Margin="0,20,20,0" Text="20000" VerticalAlignment="Top" Width="100" Height="30" VerticalContentAlignment="Center" HorizontalContentAlignment="Right"/>
+
+        <Rectangle Stroke="LightGray" HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="5,60,5,0" Height="2"/>
+
+        <Label Content="Einkommensteuer:" HorizontalAlignment="Left" Margin="10,70,0,0" VerticalAlignment="Top" Height="30" VerticalContentAlignment="Center"/>
+        <Label x:Name="lbSteuer" Content="-"  HorizontalAlignment="Right" Margin="0,70,30,0" VerticalAlignment="Top" Width="100" Height="30" VerticalContentAlignment="Center" HorizontalContentAlignment="Right"/>
+
+        <Label Content="Solidaritätzuschlag:" HorizontalAlignment="Left" Margin="30,90,0,0" VerticalAlignment="Top" Height="30" FontSize="13" VerticalContentAlignment="Center"/>
+        <Label x:Name="lbSoli" Content="-"  HorizontalAlignment="Right" Margin="0,90,30,0" VerticalAlignment="Top" Width="100" Height="30" FontSize="13" VerticalContentAlignment="Center" HorizontalContentAlignment="Right"/>
+
+        <Label Content="Sozialversicherung:" HorizontalAlignment="Left" Margin="10,115,0,0" VerticalAlignment="Top" Height="30" VerticalContentAlignment="Center"/>
+        
+        <Label Content="Krankenversicherung:" HorizontalAlignment="Left" Margin="30,135,0,0" VerticalAlignment="Top" Height="30" FontSize="13" VerticalContentAlignment="Center"/>
+        <Label x:Name="lbKV" Content="-"  HorizontalAlignment="Right" Margin="0,135,30,0" VerticalAlignment="Top" Width="100" Height="30" FontSize="13" VerticalContentAlignment="Center" HorizontalContentAlignment="Right"/>
+        <Label Content="Zusatzbeitrag zur KV:" HorizontalAlignment="Left" Margin="30,155,0,0" VerticalAlignment="Top" Height="30" FontSize="13" VerticalContentAlignment="Center"/>
+        <Label x:Name="lbZB" Content="-"  HorizontalAlignment="Right" Margin="0,155,30,0" VerticalAlignment="Top" Width="100" Height="30" FontSize="13" VerticalContentAlignment="Center" HorizontalContentAlignment="Right"/>
+        <Label Content="Pflegeversicherung:" HorizontalAlignment="Left" Margin="30,175,0,0" VerticalAlignment="Top" Height="30" FontSize="13" VerticalContentAlignment="Center"/>
+        <Label x:Name="lbPV" Content="-"  HorizontalAlignment="Right" Margin="0,175,30,0" VerticalAlignment="Top" Width="100" Height="30" FontSize="13" VerticalContentAlignment="Center" HorizontalContentAlignment="Right"/>
+        <Label Content="Rentenversicherung:" HorizontalAlignment="Left" Margin="30,195,0,0" VerticalAlignment="Top" Height="30" FontSize="13" VerticalContentAlignment="Center"/>
+        <Label x:Name="lbRV" Content="-"  HorizontalAlignment="Right" Margin="0,195,30,0" VerticalAlignment="Top" Width="100" Height="30" FontSize="13" VerticalContentAlignment="Center" HorizontalContentAlignment="Right"/>
+        <Label Content="Arbeitslosenversicherung:" HorizontalAlignment="Left" Margin="30,215,0,0" VerticalAlignment="Top" Height="30" FontSize="13" VerticalContentAlignment="Center"/>
+        <Label x:Name="lbAV" Content="-"  HorizontalAlignment="Right" Margin="0,215,30,0" VerticalAlignment="Top" Width="100" Height="30" FontSize="13" VerticalContentAlignment="Center" HorizontalContentAlignment="Right"/>
+        <CheckBox x:Name="cbKirche" Content="Kirchensteuer:" HorizontalAlignment="Left" Margin="10,240,0,0" VerticalAlignment="Top" Height="30" VerticalContentAlignment="Center"/>
+        <Label x:Name="lbKirche" Content="-"  HorizontalAlignment="Right" Margin="0,240,30,0" VerticalAlignment="Top" Width="100" Height="30" FontSize="13" VerticalContentAlignment="Center" HorizontalContentAlignment="Right"/>
+        
+        <Button Content="Abgaben berechnen" HorizontalAlignment="Stretch" Margin="20,280,20,0" VerticalAlignment="Top" Height="30" Click="Button_Click"/>
+
+        <Label Content="Abgaben gesamt:" HorizontalAlignment="Left" Margin="30,310,0,0" VerticalAlignment="Top" Height="30" FontSize="13" VerticalContentAlignment="Center"/>
+        <Label x:Name="lbAbgaben" Content="-"  HorizontalAlignment="Right" Margin="0,310,30,0" VerticalAlignment="Top" Width="100" Height="30" FontSize="13" VerticalContentAlignment="Center" HorizontalContentAlignment="Right"/>
+
+        <Label Content="Nettogehalt:" HorizontalAlignment="Left" Margin="10,330,0,0" VerticalAlignment="Top" Height="30" VerticalContentAlignment="Center"/>
+        <Label x:Name="lbNetto" Content="-"  HorizontalAlignment="Right" Margin="0,330,30,0" VerticalAlignment="Top" Width="100" Height="30" VerticalContentAlignment="Center" HorizontalContentAlignment="Right"/>
+
+        <Label Content="Abgabenlast:" HorizontalAlignment="Left" Margin="30,350,0,0" VerticalAlignment="Top" Height="30" FontSize="13" VerticalContentAlignment="Center"/>
+        <Label x:Name="lbLast" Content="-"  HorizontalAlignment="Right" Margin="0,350,30,0" VerticalAlignment="Top" Width="100" Height="30" FontSize="13" VerticalContentAlignment="Center" HorizontalContentAlignment="Right"/>
+
+
+    </Grid>
+</Window>
