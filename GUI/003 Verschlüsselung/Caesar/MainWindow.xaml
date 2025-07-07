@@ -1,0 +1,33 @@
+﻿<Window x:Class="Verschluesseln.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Verschluesseln"
+        mc:Ignorable="d"
+        Title="Caesar-Verschlüsselung" Height="500" Width="600" Background="Gray" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="35"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+
+        <TextBox x:Name="tbEingabe" Text="" Grid.Row="0" Grid.ColumnSpan="2" FontSize="15" FontWeight="SemiBold" Background="LightGray" Margin="5" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" TextWrapping="Wrap" TextChanged="tbEingabe_TextChanged"/>
+
+        <Slider x:Name="slVersatz" Grid.Row="1" Margin="5,0,5,0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" TickFrequency="1" Minimum="1" Maximum="26" Foreground="Beige" VerticalContentAlignment="Center" TickPlacement="BottomRight" IsSnapToTickEnabled="True" ValueChanged="slVersatz_ValueChanged"/>
+        <Label x:Name="slValue" Content="A" Foreground="Beige" FontWeight="Bold" Grid.Row="1" Grid.Column="1" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Padding="0"/>
+
+        <ComboBox x:Name="cbTyp" Grid.Row="2" Grid.ColumnSpan="2" Margin="50,5,50,5" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" Background="Gray" Foreground="Gray" SelectionChanged="cbTyp_SelectionChanged">
+            <ComboBoxItem Content="Verschlüsseln" IsSelected="True"/>
+            <ComboBoxItem Content="Entschlüsseln"/>
+        </ComboBox>
+
+        <TextBox x:Name="tbAusgabe" Text="" Grid.Row="3" Grid.ColumnSpan="2" Background="LightGray" FontSize="15" FontWeight="SemiBold" Margin="5" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" TextWrapping="Wrap" IsReadOnly="True"/>
+    </Grid>
+</Window>
